@@ -1,0 +1,42 @@
+.el-main{
+    padding: 5px !important;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.query_panel_container {
+    background-color: #ffffff;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.search_button {
+    margin-left: 12px;
+}
+
+.pagination{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px;
+    
+    /* border-left: 1px solid #ebeef5;
+    border-right: 1px solid #ebeef5;
+    border-bottom: 1px solid #ebeef5; */
+}
+/* 解决e-image 和e-table一起使用显示问题*/
+.el-table__cell {
+   position: static !important;
+}
